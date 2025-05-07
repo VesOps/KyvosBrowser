@@ -1,7 +1,7 @@
-# Multi-Tab Browser Application
+# Kyvos Browser Application
 
 ## Overview
-This program creates a modern, multi-tab web browser using PyQt5 and QtWebEngine. It provides a clean and intuitive interface with essential browsing features.
+This program creates a simplistic, multi-tab web browser using PyQt5 and QtWebEngine. It provides mandatory features of web browsing, and is still in development.
 
 ## Key Features
 
@@ -15,13 +15,19 @@ This program creates a modern, multi-tab web browser using PyQt5 and QtWebEngine
 - URL/Search bar that supports:
   - Direct URL navigation (e.g., `https://example.com`)
   - DuckDuckGo search integration for non-URL inputs
+  - DuckDuckGo 'bangs' implementation
 - Clean toolbar interface
 
 ### 3. User Interface
-- Modern window layout
-- Closable tabs
+- Hyper-simplistic window layout
 - URL bar with search functionality
 - New Tab button in the toolbar
+
+## Future Implementations (For Developer)
+- Keyboard shortcuts
+- Bookmark features
+- History features
+- Specific windows interface
 
 ## Technical Implementation
 
