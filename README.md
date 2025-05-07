@@ -45,9 +45,11 @@ This program creates a simplistic, multi-tab web browser using PyQt5 and QtWebEn
 
 ## Requirements
 ```python
+import sys
+from PyQt5.QtCore import QUrl
 from PyQt5.QtWidgets import QApplication, QMainWindow, QToolBar, QLineEdit, QTabWidget
 from PyQt5.QtWebEngineWidgets import QWebEngineView
-from PyQt5.QtCore import QUrl
+from PyQt5.QtGui import QIcon
 ```
 
 ## Usage
